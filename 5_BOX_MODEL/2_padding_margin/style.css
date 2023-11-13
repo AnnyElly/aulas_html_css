@@ -1,0 +1,26 @@
+div {
+    border: 4px dotted #9a8c98;
+    width: fit-content; /* fazer caber o conteudo */
+    font-size: 24px;/* aumenta o texto */
+    /* padding-top: 10px;/* espaço entro o conteudo e a borda */
+    /* padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; */ 
+
+/* shorthand */
+/* 1 valor = mesmo valor para todos os lados */
+    padding: 20px;
+    /* 2 valoresv = primeiro top e bottom/ segundo right e left */
+    padding: 30px 50px ;
+
+    /* 3 valores = 1 top /2 right e left  / 3 bottom*/
+    padding: 20 px 50px 5 px;
+
+    /* 4 valores = 1 top / 2 right / 3 bottom / 4 left*/ 
+    padding: 30px 50px 70px 90px ;
+
+    /*  propriedade extras  */
+
+    padding-inline: 40px;   /* padding na horizontal */
+    padding-block: 20px; /* padding na vertical  */
+}
